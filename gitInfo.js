@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+const gitDefinition = 'Git is a version control system. It allows individuals and teams to track changes to code projects. It can prevent bugs and can prevent loss of progress. It also allows you to view history of a project.';
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+const gitHubDefinition = 'GitHub is a website that is used for storing, tracking, and collaborating on projects. By using this website developers can upload their own code files and collaborate with other developers.';
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -25,7 +25,7 @@
     It should be a string containing your best definition of what 'git init' does.
 */
 
-//CODE HERE
+const gitInitDefinition = 'The git init command is used to initialize a local repository.';
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -33,7 +33,7 @@
     It should be a string containing your best definition of what 'git clone' does.
 */
 
-//CODE HERE
+const gitCloneDefinition = 'Git clone command makes a copy of an existing repo.'
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -41,7 +41,7 @@
     It should be a string containing your best definition of what 'git status' does.
 */
 
-//CODE HERE
+const gitStatusDefinition = 'Git status lets see the status of your current directory. It is helpful because you are able to see which files are untracked and commited.'
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -52,8 +52,9 @@
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
+const gitAddDefinition = 'Git add comes before commit. It takes the file you are working on to the staging area.'
 
+const gitAddCode = 'git add .'
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -63,7 +64,9 @@
     It should be a string containing the code to commit using the message "initial commit".
 */
 
-//CODE HERE
+const gitCommitDefinition = 'Commit takes your file from the staging area and makes a permanent save to your repo. '
+
+const gitCommitCode = 'git commit -m" " '
 
 
 //////////////////PROBLEM 8////////////////////
@@ -72,4 +75,4 @@
     It should be a string containing your best definition of what 'git push' does.
 */
 
-//CODE HERE
+const gitPushDefinition = 'Push pushes or send your commit from your local rep to your remote repo on Github.'

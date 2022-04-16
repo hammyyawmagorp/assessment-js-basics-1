@@ -12,13 +12,8 @@
 // Planning.
 // Testing & Integration.
 
-// *Answer*:
-// Planning
-// Analysis of Requirements
-// Design
-// Testing & Integration
-// Implementation
-// Maintain
+//Answer:
+let answer = ['Planning', 'Analysis of requirements' , 'Design','Testing & Integration','Implementation','Maintain']
 
 //////////////////PROBLEM 2////////////////////
 /*
